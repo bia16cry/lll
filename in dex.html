@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - entre em contato </title>
+    <style>
+        body {
+            background-image: url('https://example.com/sua-imagem-de-fundo.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        h1, h2, h3, h4 {
+            margin: 10px 0;
+        }
+        p {
+            margin: 20px 0;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 14px;
+        }
+        .contact-info {
+            margin-top: 40px;
+            text-align: left;
+            font-size: 18px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegação -->
+    <div class="navbar">
+        <a href="index.html">Início</a> <!-- Lhttp://localhost/pasta-do-site/index.html
+        -->
+        <a href="contato.html">Contato</a>
+    </div>
+
+    <h1>Informações de Contato</h1>
+
+    <div class="contact-info">
+        <h2>Entre em contato conosco</h2>
+        <p>Telefone:(61) 3901-6609</p>
+        <p>E-mail: SECRETARIACEF416@GMAIL.COM</p>
+        <p>Endereço:EQ 416/516 - LT A - AE </p>
+    </div>
+
+    <div class="contact-form">
+        <h3>Envie uma mensagem</h3>
+        <form action="enviar-mensagem.php" method="POST">
+            <input type="text" name="nome" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>© 2024 Meu Site - Todos os direitos reservados</p>
+    </div>
+
+</body>
+</html>
